@@ -1,0 +1,42 @@
+{
+    "name": "litter-robot-api",
+    "version": "0.0.1",
+    "description": "A simple API for the Whisker Litter Robot",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/adamchlebek/litter-robot-api"
+    },
+    "author": "Adam Chlebek",
+    "main": "src/index.js",
+    "scripts": {
+        "lint": "eslint ."
+    },
+    "keywords": [
+        "litter",
+        "robot",
+        "whisker",
+        "api"
+    ],
+    "dependencies": {
+        "axios": "^1.1.2",
+        "simple-oauth2": "^4.3.0"
+    },
+    "devDependencies": {
+        "@types/jest": "^24.0.16",
+        "commitizen": "^4.0.3",
+        "cz-conventional-changelog": "^3.0.2",
+        "eslint": "^6.1.0",
+        "eslint-config-standard": "^13.0.1",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-node": "^9.1.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.0",
+        "jest": "^24.8.0",
+        "semantic-release": "^17.2.3"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/",
+        "tag": "latest"
+    }
+}
