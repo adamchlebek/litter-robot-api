@@ -3,7 +3,7 @@
 [![npm (scoped)](https://img.shields.io/npm/v/litter-robot-api.svg)](https://www.npmjs.com/package/litter-robot-api)
 [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/litter-robot-api.svg)](https://www.npmjs.com/package/litter-robot-api)
 
-Removes all spaces from a string.
+This package is not complete at all! Please check back later for updates
 
 ## Install
 
